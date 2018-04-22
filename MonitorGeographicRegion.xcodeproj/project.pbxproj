@@ -14,6 +14,9 @@
 		1CE8FAD9208C9F3C00E5CC3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE8FAD7208C9F3C00E5CC3A /* LaunchScreen.storyboard */; };
 		1CE8FAE4208C9F3C00E5CC3A /* MonitorGeographicRegionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE8FAE3208C9F3C00E5CC3A /* MonitorGeographicRegionTests.swift */; };
 		1CE8FAEF208C9F3C00E5CC3A /* MonitorGeographicRegionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE8FAEE208C9F3C00E5CC3A /* MonitorGeographicRegionUITests.swift */; };
+		52FE7DA48A89BED7681C2853 /* Pods_MonitorGeographicRegion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E98DD77E9ED4E03F601D180 /* Pods_MonitorGeographicRegion.framework */; };
+		D8A0EC4B736FDCAEFD8EAA36 /* Pods_MonitorGeographicRegionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610F27DF8F2CD9AFA612B29E /* Pods_MonitorGeographicRegionUITests.framework */; };
+		D96ABA38FE0798B70B3E2D7D /* Pods_MonitorGeographicRegionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FF16515880D8AB85516B4B /* Pods_MonitorGeographicRegionTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		1CE8FAEA208C9F3C00E5CC3A /* MonitorGeographicRegionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonitorGeographicRegionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE8FAEE208C9F3C00E5CC3A /* MonitorGeographicRegionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorGeographicRegionUITests.swift; sourceTree = "<group>"; };
 		1CE8FAF0208C9F3C00E5CC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FF16515880D8AB85516B4B /* Pods_MonitorGeographicRegionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonitorGeographicRegionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		315F7624A2E5F462CE5D439D /* Pods-MonitorGeographicRegionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonitorGeographicRegionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonitorGeographicRegionUITests/Pods-MonitorGeographicRegionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		329A66F6A064E51AC568556F /* Pods-MonitorGeographicRegionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonitorGeographicRegionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonitorGeographicRegionTests/Pods-MonitorGeographicRegionTests.release.xcconfig"; sourceTree = "<group>"; };
+		5654D902A5E9A8AAEFAE45AA /* Pods-MonitorGeographicRegion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonitorGeographicRegion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonitorGeographicRegion/Pods-MonitorGeographicRegion.debug.xcconfig"; sourceTree = "<group>"; };
+		610F27DF8F2CD9AFA612B29E /* Pods_MonitorGeographicRegionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonitorGeographicRegionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E83719F810ED0ADD1ED16F2 /* Pods-MonitorGeographicRegionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonitorGeographicRegionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonitorGeographicRegionTests/Pods-MonitorGeographicRegionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B275067455BE7C8E385F6F6 /* Pods-MonitorGeographicRegion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonitorGeographicRegion.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonitorGeographicRegion/Pods-MonitorGeographicRegion.release.xcconfig"; sourceTree = "<group>"; };
+		8E98DD77E9ED4E03F601D180 /* Pods_MonitorGeographicRegion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonitorGeographicRegion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C809AA1D29D51E59E5E5130 /* Pods-MonitorGeographicRegionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonitorGeographicRegionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonitorGeographicRegionUITests/Pods-MonitorGeographicRegionUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FE7DA48A89BED7681C2853 /* Pods_MonitorGeographicRegion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96ABA38FE0798B70B3E2D7D /* Pods_MonitorGeographicRegionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A0EC4B736FDCAEFD8EAA36 /* Pods_MonitorGeographicRegionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				1CE8FAE2208C9F3C00E5CC3A /* MonitorGeographicRegionTests */,
 				1CE8FAED208C9F3C00E5CC3A /* MonitorGeographicRegionUITests */,
 				1CE8FACC208C9F3B00E5CC3A /* Products */,
+				C8C20A94E31D4ECF5D1606F9 /* Pods */,
+				6BCC932CBF04B7DD7E464B9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = MonitorGeographicRegionUITests;
 			sourceTree = "<group>";
 		};
+		6BCC932CBF04B7DD7E464B9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E98DD77E9ED4E03F601D180 /* Pods_MonitorGeographicRegion.framework */,
+				26FF16515880D8AB85516B4B /* Pods_MonitorGeographicRegionTests.framework */,
+				610F27DF8F2CD9AFA612B29E /* Pods_MonitorGeographicRegionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8C20A94E31D4ECF5D1606F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5654D902A5E9A8AAEFAE45AA /* Pods-MonitorGeographicRegion.debug.xcconfig */,
+				7B275067455BE7C8E385F6F6 /* Pods-MonitorGeographicRegion.release.xcconfig */,
+				6E83719F810ED0ADD1ED16F2 /* Pods-MonitorGeographicRegionTests.debug.xcconfig */,
+				329A66F6A064E51AC568556F /* Pods-MonitorGeographicRegionTests.release.xcconfig */,
+				315F7624A2E5F462CE5D439D /* Pods-MonitorGeographicRegionUITests.debug.xcconfig */,
+				9C809AA1D29D51E59E5E5130 /* Pods-MonitorGeographicRegionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CE8FAF3208C9F3C00E5CC3A /* Build configuration list for PBXNativeTarget "MonitorGeographicRegion" */;
 			buildPhases = (
+				3E77FF4F4175C6973A1FA781 /* [CP] Check Pods Manifest.lock */,
 				1CE8FAC7208C9F3B00E5CC3A /* Sources */,
 				1CE8FAC8208C9F3B00E5CC3A /* Frameworks */,
 				1CE8FAC9208C9F3B00E5CC3A /* Resources */,
+				EDAE11FBFEDB1ACDD3528D5D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CE8FAF6208C9F3C00E5CC3A /* Build configuration list for PBXNativeTarget "MonitorGeographicRegionTests" */;
 			buildPhases = (
+				54814C4630CC67B0D16CF29B /* [CP] Check Pods Manifest.lock */,
 				1CE8FADB208C9F3C00E5CC3A /* Sources */,
 				1CE8FADC208C9F3C00E5CC3A /* Frameworks */,
 				1CE8FADD208C9F3C00E5CC3A /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CE8FAF9208C9F3C00E5CC3A /* Build configuration list for PBXNativeTarget "MonitorGeographicRegionUITests" */;
 			buildPhases = (
+				50D06A424144427B3C05153A /* [CP] Check Pods Manifest.lock */,
 				1CE8FAE6208C9F3C00E5CC3A /* Sources */,
 				1CE8FAE7208C9F3C00E5CC3A /* Frameworks */,
 				1CE8FAE8208C9F3C00E5CC3A /* Resources */,
@@ -193,6 +237,11 @@
 				TargetAttributes = {
 					1CE8FACA208C9F3B00E5CC3A = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					1CE8FADE208C9F3C00E5CC3A = {
 						CreatedOnToolsVersion = 9.3;
@@ -250,6 +299,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E77FF4F4175C6973A1FA781 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonitorGeographicRegion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50D06A424144427B3C05153A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonitorGeographicRegionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54814C4630CC67B0D16CF29B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonitorGeographicRegionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDAE11FBFEDB1ACDD3528D5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MonitorGeographicRegion/Pods-MonitorGeographicRegion-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonitorGeographicRegion/Pods-MonitorGeographicRegion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1CE8FAC7208C9F3B00E5CC3A /* Sources */ = {
@@ -428,6 +552,7 @@
 		};
 		1CE8FAF4208C9F3C00E5CC3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5654D902A5E9A8AAEFAE45AA /* Pods-MonitorGeographicRegion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +571,7 @@
 		};
 		1CE8FAF5208C9F3C00E5CC3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B275067455BE7C8E385F6F6 /* Pods-MonitorGeographicRegion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +590,7 @@
 		};
 		1CE8FAF7208C9F3C00E5CC3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E83719F810ED0ADD1ED16F2 /* Pods-MonitorGeographicRegionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +612,7 @@
 		};
 		1CE8FAF8208C9F3C00E5CC3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329A66F6A064E51AC568556F /* Pods-MonitorGeographicRegionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +634,7 @@
 		};
 		1CE8FAFA208C9F3C00E5CC3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315F7624A2E5F462CE5D439D /* Pods-MonitorGeographicRegionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +655,7 @@
 		};
 		1CE8FAFB208C9F3C00E5CC3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C809AA1D29D51E59E5E5130 /* Pods-MonitorGeographicRegionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
